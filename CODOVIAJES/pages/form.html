@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- FORM -->
+    <form action=>
+        <fieldset>
+            <legend>Información Personal</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            <br>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Destino</legend>
+            <label for="destino">Selecciona un destino:</label>
+            <select id="destino" name="destino">
+                <option value="destino1">Destino 1</option>
+                <option value="destino2">Destino 2</option>
+                <option value="destino3">Destino 3</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Mensaje</legend>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </fieldset>
+        <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
